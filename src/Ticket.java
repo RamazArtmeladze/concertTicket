@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class Ticket {
-    private String id;  // I choose String here because the requirement is that it is possible to contain char.
+    private String id;  // I choose String here because the requirement is that it is possible to contain char. otherwise it should be long.
     private String concertHall;
     private int eventCode;
     private LocalDateTime time;
